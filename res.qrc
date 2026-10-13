@@ -1,0 +1,89 @@
+<RCC>
+    <qresource prefix="/hero">
+        <file>1.png</file>
+        <file>2.png</file>
+        <file>3.png</file>
+        <file>4.png</file>
+    </qresource>
+    <qresource prefix="/enemy">
+        <file>01.png</file>
+        <file>02.png</file>
+        <file>03.png</file>
+        <file>11.png</file>
+        <file>12.png</file>
+        <file>13.png</file>
+        <file>14.png</file>
+        <file>15.png</file>
+    </qresource>
+    <qresource prefix="/enemyBullet">
+        <file>enemyBullet04.png</file>
+        <file>enemyBullet05.png</file>
+        <file>enemyBullet21.png</file>
+        <file>enemyBullet06.png</file>
+        <file>enemyBullet01.png</file>
+        <file>enemyBullet02.png</file>
+        <file>enemyBullet03.png</file>
+    </qresource>
+    <qresource prefix="/heroBullet">
+        <file>heroBullet01.png</file>
+        <file>heroBullet03.png</file>
+        <file>heroBullet05.png</file>
+        <file>heroBullet06.png</file>
+        <file>heroBullet12.png</file>
+        <file>heroBullet07.png</file>
+        <file>heroBullet21.png</file>
+        <file>heroBullet02.png</file>
+        <file>heroBullet04.png</file>
+    </qresource>
+    <qresource prefix="/bomb">
+        <file>Klight_8.png</file>
+        <file>Klight_13.png</file>
+        <file>Klight_12.png</file>
+        <file>Klight_9.png</file>
+        <file>Klight_10.png</file>
+        <file>Klight_11.png</file>
+        <file>Klight_29.png</file>
+        <file>Klight_15.png</file>
+        <file>Klight_14.png</file>
+        <file>Klight_28.png</file>
+        <file>Klight_16.png</file>
+        <file>Klight_17.png</file>
+        <file>Klight_1.png</file>
+        <file>Klight_26.png</file>
+        <file>Klight_27.png</file>
+        <file>Klight_0.png</file>
+        <file>Klight_2.png</file>
+        <file>Klight_25.png</file>
+        <file>Klight_31.png</file>
+        <file>Klight_19.png</file>
+        <file>Klight_18.png</file>
+        <file>Klight_30.png</file>
+        <file>Klight_24.png</file>
+        <file>Klight_3.png</file>
+        <file>Klight_7.png</file>
+        <file>Klight_20.png</file>
+        <file>Klight_21.png</file>
+        <file>Klight_6.png</file>
+        <file>Klight_4.png</file>
+        <file>Klight_23.png</file>
+        <file>Klight_22.png</file>
+        <file>Klight_5.png</file>
+        <file>bomb5.png</file>
+        <file>bomb6.png</file>
+        <file>bomb0.png</file>
+        <file>bomb1.png</file>
+        <file>bomb2.png</file>
+        <file>bomb3.png</file>
+        <file>bomb4.png</file>
+    </qresource>
+    <qresource prefix="/scene">
+        <file>mainscene.jpg</file>
+        <file>gamescene.jpg</file>
+        <file>user_exchange_scene.jpg</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>againicon.png</file>
+        <file>continueicon.png</file>
+        <file>stopicon.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>editor</class>
+ <widget class="QMainWindow" name="editor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>897</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <attribute name="horizontalHeaderMinimumSectionSize">
+         <number>60</number>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>80</number>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>敌机类别</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>敌机型号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>初始x坐标</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>初始y坐标</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>x轴速度</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>y轴速度</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>出现时间</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>生命值</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>编辑子弹</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="newButton">
+          <property name="text">
+           <string>新增敌机</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>删除该敌机</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="writeButton">
+          <property name="text">
+           <string>保存</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>897</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
